@@ -12,7 +12,7 @@
 #Initialization
 
 
-#Number of guests in attendance>
+#Number of guests in attendance
 guests = 0
 
 #Name of event
