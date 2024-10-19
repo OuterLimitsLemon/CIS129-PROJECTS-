@@ -29,10 +29,12 @@ total_dogs = 0
 while yes_or_no != 'y' and yes_or_no != 'n':
     yes_or_no = input("\nWould you like to title your event? y/n: ")
     if yes_or_no == 'y':
+#Event title prompt
         name_of_event = input("Please title your event: ")
     elif yes_or_no == 'n':
         name_of_event = "Untitled Event"
         print("Untitled Event")
+#Error message if a 'space' or innapropriate value if entered. 
     else:
         print("Please enter either 'y' or 'n'")
 
