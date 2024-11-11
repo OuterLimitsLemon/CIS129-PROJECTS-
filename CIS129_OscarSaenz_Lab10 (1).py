@@ -2,10 +2,13 @@
 #Professor Troy Adams
 #CIS129
 #10 November 2024
+#Check Protector! 
+
 
 #Initialize variables
 yes_or_no = 'true'
 sanitized_input = []
+
 
 #Function Definitions
 
@@ -86,6 +89,7 @@ def try_again():
             return 'end'
         else:
             print("Invalid input. Please enter 'y' for yes or 'n' for no.\n")
+
 
 #Calls
 print()
