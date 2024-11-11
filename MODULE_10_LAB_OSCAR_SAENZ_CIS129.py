@@ -89,9 +89,9 @@ def try_again():
 
 #Calls
 print()
-print(f"{"Check Protector":^68}")
+print(f'{"Check Protector":^68}')
 print("This program allows up to $999,999.99 - including one decimal point.")
-print(f"{"Do not use a comma.":^68}")
+print(f'{"Do not use a comma.":^68}')
 print("--------------------------------------------------------------------")
 print()
 
